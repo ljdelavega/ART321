@@ -1,38 +1,110 @@
 html {
-    background-color: #e6e9e9;
+    background-color: black;
     background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
     background-image: linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);
     -webkit-font-smoothing: antialiased;
+    background-image: url(gengar.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 body {
     margin: 0 auto;
     padding: 2em 2em 4em;
-    max-width: 800px;
+    max-width: 1024px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5em;
     color: #545454;
-    background-color: #ffffff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
 }
 
-h1 {
+/* HEADER */
+header {
     text-align: center;
+    background-color: blanchedalmond;
+    opacity: 0.8;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+}
+
+footer {
+    text-align: center;
+    background-color: blanchedalmond;
+    opacity: 0.8;
+    border-radius: 20px;
+    margin-top: 20px;
+    border-style: solid;
+}
+
+div.navbar {
+    
+}
+
+ul.navbarLinks{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    padding-left: 10px;
+}
+
+li.navbarLink {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li.navbarLink:last-child {
+    border-right: none;
+}
+
+li.navbarLink a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+li.navbarLink a:hover {
+    background-color:chartreuse;
+}
+
+/* Active page */
+.active {
+    background-color: darkred;
+}
+
+
+/* CONTENT */
+div.content {
+    background-color: blanchedalmond;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+}
+
+div.references {
+    text-align: center;
+    
+}
+
+table.references, tr, td{
+    width: 100%;
+    border: 1px solid black;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #222;
     font-weight: 600;
     line-height: 1.3em;
-}
-
-h2 {
-    margin-top: 1.3em;
-    text-align: center;
-}
-
-p {
     text-align: center;
 }
 
