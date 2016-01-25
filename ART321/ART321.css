@@ -91,6 +91,16 @@ div.content {
     border-style: solid;
 }
 
+div.image {
+    
+}
+
+img.image {
+    width: 500px;
+    height: 360px;
+}
+
+
 div.references {
     text-align: center;
     
