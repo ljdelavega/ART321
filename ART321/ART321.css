@@ -10,7 +10,7 @@ html {
 
 body {
     margin: 0 auto;
-    padding: 2em 2em 4em;
+    padding: 5px;
     max-width: 1024px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -86,8 +86,7 @@ div.content {
     background-color: blanchedalmond;
     opacity: 0.8;
     border-radius: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding: 10px;
     border-style: solid;
 }
 
