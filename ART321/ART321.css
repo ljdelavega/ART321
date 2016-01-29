@@ -90,13 +90,26 @@ div.content {
     border-style: solid;
 }
 
-div.image {
-    
+div.imageLeft {
+    float: left;
+    margin-right: 10px;
+}
+
+div.imageRight {
+    float: right;
+    margin-left: 10px;
+}
+
+div.imageCompare {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    display: inline-block;
 }
 
 img.image {
-    width: 500px;
-    height: 360px;
+    width: 400px;
+    height: 300px;
 }
 
 
