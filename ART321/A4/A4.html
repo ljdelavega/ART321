@@ -30,6 +30,40 @@
     <body>
         <div class="content">
             <h1>Design a Net Art Piece</h1>
+            <h2>Lester's Public Drawing Board!</h2>
+            <p>
+                The idea that I was thinking of doing for my final project was to create a way for artists from all over the world brainstorm ideas and create art pieces on the same canvas. So this design assignment was a great opportunity to start thinking about it.
+                <br>
+                <br>
+                Some useful things that could be done with this project:
+                <ul>
+                    <li>Great for making quick sketches for prototyping / storyboarding.</li>
+                    <li>Great for brainstorming ideas</li>
+                    <li>Can be turned into a game of some sort (like DrawMyThing)</li>
+                </ul>
+            </p>
+            <br>
+            <h2>How it’ll work (roughly)</h2>
+            <h3>2 Main Parts: Client and Server</h3>
+            <br>
+            
+            <h4>Client</h4>
+            <a href="client.png">
+                <img src="client.png" alt="Client Side" >
+            </a>
+            <ul>
+                <li>Loads the webpage and has to click start drawing to connect to the server. They can enter a username that sends a message to the server that registers that username on the server and lets them start drawing</li>
+                <li>Then when the user clicks on the webpage, it sends a message to the server with x and y coordinates on the page, username or id from the user, and a drawing/not drawing state. Maybe another thing that could be added is an RGB value for different colors.</li>
+            </ul>
+            <h4>Server</h4>
+            <a href="server.png">
+                <img src="server.png" alt="Server Side" >
+            </a>
+            <ul>
+                <li>When it receives a new user message, it saves them on the server so other people can see their cursors.</li>
+                <li>When a user who is in the drawing mode clicks and sends their message, the server receives it and modifies the board by drawing a line at the x and y coordinates, their name, and drawing state from the client’s message.</li>
+                <li>Maybe I could add a chat feature in the future.</li>
+            </ul>
         </div>
         
     </body>
