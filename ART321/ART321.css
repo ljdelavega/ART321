@@ -153,6 +153,11 @@ img {
     max-width: 95%;
 }
 
+embed.flash {
+    width: 500px;
+    height: 400px;
+}
+
 @-webkit-keyframes colorize {
     0% {
         -webkit-filter: grayscale(100%);
